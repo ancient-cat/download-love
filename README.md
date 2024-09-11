@@ -1,4 +1,4 @@
-# Download Love Executable
+# Download Love Executable(s)
 
 Downloads the love2d executable. Likely to be used for packaging executables and pipelines.
 
@@ -11,7 +11,7 @@ npm install get-love --save
 ## Usage
 
 ```ts
-import { download_love, all_platforms, } from "download-love";
+import { download_love, all_platforms, } from "get-love2d";
 
 
 // download love 11.5 for macos/linux, win32, win64
