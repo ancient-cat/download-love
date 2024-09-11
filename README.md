@@ -1,2 +1,4 @@
-# download-love
-You wouldn't download a physiological emotion
+# Download Love Executable
+
+Downloads the love2d executable. Likely to be used for packaging executables and pipelines.
+

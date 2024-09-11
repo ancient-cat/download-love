@@ -1,0 +1,29 @@
+{
+  "name": "download-love",
+  "version": "0.1.0",
+  "description": "Downloads love2d executable. Likely to be used for packaging executables and pipelines.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ancient-cat/download-love.git"
+  },
+  "author": "Rory Duncan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ancient-cat/download-love/issues"
+  },
+  "homepage": "https://github.com/ancient-cat/download-love#readme",
+  "dependencies": {
+    "@inquirer/prompts": "^5.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
