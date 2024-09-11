@@ -5,7 +5,7 @@ Downloads the love2d executable. Likely to be used for packaging executables and
 ## Install
 
 ```sh
-npm install download-love --save
+npm install get-love --save
 ```
 
 ## Usage

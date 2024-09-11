@@ -1,6 +1,6 @@
 {
-  "name": "download-love",
-  "version": "0.1.0",
+  "name": "get-love",
+  "version": "1.0.0",
   "description": "Downloads love2d executable. Likely to be used for packaging executables and pipelines.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
