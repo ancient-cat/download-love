@@ -4,6 +4,7 @@
   "description": "Downloads love2d executable. Likely to be used for packaging executables and pipelines.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -21,9 +22,11 @@
   },
   "homepage": "https://github.com/ancient-cat/download-love#readme",
   "dependencies": {
-    "@inquirer/prompts": "^5.5.0"
+    "axios": "^1.7.7",
+    "kleur": "^4.1.5"
   },
   "devDependencies": {
+    "@types/node": "^22.5.4",
     "typescript": "^5.6.2"
   }
 }
